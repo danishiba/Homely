@@ -2,7 +2,11 @@
   "name": "homely",
   "version": "0.1.0",
   "private": true,
+<<<<<<< HEAD
   "homepage": "https://your-username.github.io/repository-name",
+=======
+  "homepage": "https://danishiba.github.io/Homely",
+>>>>>>> Initial commit
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
