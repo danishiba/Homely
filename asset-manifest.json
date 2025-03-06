@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Homely/static/css/main.c804cfa6.css",
+    "main.js": "/Homely/static/js/main.81ee46c8.js",
+    "static/media/background.jpg": "/Homely/static/media/background.0a3bee9ed16b5ed70a85.jpg",
+    "static/media/logo1.png": "/Homely/static/media/logo1.6da05e8824a7e7c2b81d.png",
+    "index.html": "/Homely/index.html",
+    "main.c804cfa6.css.map": "/Homely/static/css/main.c804cfa6.css.map",
+    "main.81ee46c8.js.map": "/Homely/static/js/main.81ee46c8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c804cfa6.css",
+    "static/js/main.81ee46c8.js"
+  ]
+}
