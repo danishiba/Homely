@@ -1,0 +1,469 @@
+
+body{
+    margin: 0;
+    padding: 0%;
+    height: 100%;
+    font-family: Okra, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    
+}
+  
+.hero-section {
+  background-image: url(../images/background.jpg);
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.hero-section h1 {
+  color: #fff;
+}
+.hero-section p {
+  color: #fff;
+}
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 300%;
+
+}
+
+.searchBarContainer{
+  background-color: rgb(255, 255, 255);
+  width: 82%;
+  display: flex;
+  height: 25%;
+  border-radius: 5px;
+}
+
+.locationBar{
+  background-color: rgba(255, 255, 0, 0);
+  width: 31.5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.mapIcon{
+  background-color: rgba(0, 0, 255, 0);
+}
+
+.locationDropDown{
+  background-color: rgba(165, 42, 42, 0);
+  height: 60%;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: grey;
+}
+
+.arrowMark{
+  color: rgb(47, 79, 79);
+}
+
+.searchBar{
+  background-color: rgba(255, 166, 0, 0);
+  width: 68.5%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.searchIcon{
+  background-color: rgba(0, 0, 255, 0);
+  height: 20px;
+  width: 20px;
+}
+
+.searchField:active, .searchField {
+  width: 87%;
+  border: none;
+}
+
+.main{
+  background-color: rgb(255, 255, 255);
+  height: 1874px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainWrapper{
+  margin-top: 40px;
+  background-color: rgb(255, 255, 255);
+  height: 1200px;
+  width: 81%;
+}
+
+.orderOnlineWrapper{
+  background-color: rgba(128, 255, 0, 0);
+  width: 50%;
+  height: 22%;
+
+}
+
+.orderOnlineBox{
+  background-color: white;
+  width: 100%;
+  height: 90%;
+  border-radius: 10px;
+  transition: 200ms;
+  border: .05px solid rgba(128, 128, 128, 0.521);
+}
+.orderOnlineBox:hover{
+  transform: scale.05;
+}
+
+.orderOnlineImage{
+  background-color: rgba(210, 105, 30, 0);
+  height: 65%;
+  width: 100%;
+  object-fit: cover;
+  object-position: 0% 45%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.orderOnlineTextsBox{
+  margin-top: -11px;
+  background-color: rgba(255, 0, 0, 0);
+  height: 35%;
+}
+
+.orderOnlineTexts{
+  background-color: rgba(165, 42, 42, 0);
+  margin: 17px;
+}
+
+.orderOnlineTitle{
+  font-size: 23px;
+  background-color: rgba(233, 150, 122, 0);
+  height: min-content;
+  width: 26%;
+}
+
+.orderOnlineSubtitle{
+  background-color: rgba(255, 127, 80, 0);
+  margin-top: -19px;
+}
+
+.popularHeading{
+  background-color: rgba(128, 255, 0, 0);
+  font-size: xx-large;
+}
+
+.placesBoxes{
+  width: 100%;
+  height: 297px;
+  background-color: rgba(128, 255, 0, 0);
+}
+
+.placesBoxesRow{
+  width: 100%;
+  height: 33.33%;
+  background-color: rgb(255, 255, 255);
+}
+
+.placesBox{
+  height: 75%;
+  width: 32%;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.505);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.placesBoxesLocationAndPlaces{
+  height: 70%;
+  width: 80%;
+  background-color: rgba(128, 255, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+ 
+.placeName{
+  font-size: 22px;
+}
+
+.placesBoxesRow{
+  display: flex;
+  justify-content: space-between;
+}
+
+.getTheZomatoWrapper{
+  background-color: rgba(255, 255, 0, 0);
+  width: 100%;
+  height: 538px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.getTheZomatoBox{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  width: 67%;
+  height: 95%;
+}
+
+.getTheZomatoImage{
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.getTheZomatoForm{
+  background-color: rgb(255, 255, 255);
+  height: 80%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.getTheZomatoFormBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 70%;
+}
+
+.getTheZomatoHeading{
+  background-color: rgba(0, 0, 255, 0);
+  font-size: 40px;
+  width: 84%;
+}
+
+.getTheZomatoParagraph{
+  background-color: rgba(255, 166, 0, 0);
+  width: 84%;
+  line-height: 30px;
+  font-size: 15px;
+}
+
+.emailOrPhoneBox{
+  background-color: rgba(100, 148, 237, 0);
+  width: 50%;
+  height: 45px;
+  accent-color: red;
+  font-size: 16px;
+  display: flex;
+  align-items: top;
+}
+
+.emailSubmittingContainer{
+  background-color: rgba(144, 238, 144, 0);
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  width: 100%;
+}
+
+.emailSubmittingContainerLeft{
+  width: 65%;
+  background-color: rgba(222, 184, 135, 0);
+  height: 75%;
+}
+
+.emailBox{
+  height: 100%;
+  width: 92%;
+  border-radius: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.514);
+  padding-left: 20px;
+}
+
+.emailSubmittingContainerRight{
+  height: 100%;
+  width: 35%;
+  background-color: rgba(153, 205, 50, 0);
+
+}
+
+.ShareAppLink{
+  background-color: rgb(255, 38, 38);
+  border: none;
+  color: white;
+  width: 100%;
+  height: 75%;
+  border-radius: 10px;
+  font-size: 18px;
+
+}
+
+.downloadImages{
+  display: flex;
+  background-color: rgba(0, 0, 255, 0);
+  height: 10%;
+  width: 63%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nearMeWrapper{
+  width: 81%;
+  background-color: rgb(255, 255, 255);
+  height: 674px;
+
+}
+
+.nearMeHeading{
+  background-color: rgba(255, 255, 0, 0);
+  font-size: 35px;
+  margin: 50px 0px;
+}
+
+.cuisinesNearMeConatainer{
+  background-color: rgb(255, 255, 255);
+ border-radius: 5px;
+  border: 1px solid rgba(128, 128, 128, 0.375);
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 20px;
+
+}
+
+.cuisinesNearMeLeft{
+  background-color: white;
+  font-size: 20px;
+  width: 50%;
+  height: 65%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 0px 0px 20px;
+}
+
+.cuisinesText{
+  background-color: rgba(255, 255, 0, 0);
+  height: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cuisinesNearMeRight{
+  background-color: rgba(255, 0, 0, 0);
+  width: 20px;
+  height: 25px;
+  margin: 0px 20px 0px 0px;
+
+}
+
+.footer{
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerAbove{
+  display: flex;
+}
+
+
+.footerAbove{
+  background-color: rgb(255, 255, 255);
+  width: 81%;
+  display: flex;
+  justify-content: space-between; 
+}
+
+.zomatoLogo{
+  height: 27px;
+  
+}
+
+.footerAboveRight{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+
+}
+
+.countryButton{
+  height: 40px;
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 5px;
+  border: solid 1px rgba(128, 128, 128, 0.496);
+  margin: 0px 10px;
+
+}
+
+.countryFlag{
+  height: 15px;
+}
+
+.countryName{
+  font-size: 18px;
+}
+
+.footerCenter{
+  background-color: rgb(255, 255, 255);
+  width: 81%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.footerCenter1{
+  background-color: rgb(255, 255, 255);
+  width: 18%;
+  height: 80%;
+}
+
+.centerMainText{
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+#firstSubtitle{
+  margin-top: 10px;
+}
+
+.centerOthertext{
+  background-color: rgb(255, 255, 255);
+  margin: 5px 0px;
+  color: grey;
+  font-size: 14px;
+  display: flex;
+}
+
+.socialIcon{
+  margin: 0px 3px ;
+}
+
+.downloadAppstoreImage{
+  width: 70%; 
+}
+
+.footerBelow{
+  width: 81%;
+  background-color: rgb(255, 255, 255);
+  height: 20%;
+  border-top: 1px solid gray;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: gray;
+}
